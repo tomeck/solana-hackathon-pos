@@ -1,4 +1,4 @@
-#PMPOS
+# PMPOS
 ### Poor man's Point of Sale terminal
 Submitted for the Solana DeFi Hackathon March 1 2021
 
@@ -7,10 +7,10 @@ Submitted for the Solana DeFi Hackathon March 1 2021
 
     go get "github.com/tidwall/gjson"
 
-#Running
+# Running
     go run pmpos.go
 
-#What it does
+# What it does
 This application simulates the back-end of a merchant's Point of Sale (PoS) system. 
 It performs two basic functions:
 
