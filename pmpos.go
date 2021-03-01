@@ -132,7 +132,7 @@ func main() {
 	}()
 
 	// Send an accountSubscribe message to the Solana chain
-	//  indicating we want to receive updates for this
+	//  indicating we want to receive updates for this address
 	go func() {
 
 		log.Printf("Registering for updates to merchant address %s", gMerchantSolanaAddress)
