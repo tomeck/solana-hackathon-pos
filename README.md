@@ -2,7 +2,7 @@
 ### Poor man's Point of Sale terminal
 Submitted for the Solana DeFi Hackathon March 1 2021
 
-#Installation
+# Installation
     go get "github.com/gorilla/websocket"
 
     go get "github.com/tidwall/gjson"
