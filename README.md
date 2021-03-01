@@ -17,6 +17,6 @@ It performs two basic functions:
 1. Keeps a tab on the merchant's USDC balance of a soft wallet held on Circle.com.  It accomplishes this by polling the Circle Wallet API periodically
 2. Connects to the Solana testnet WebSocket and submits a request to be notified of all changes to an address on the Solana chain to which a customer pays the merchant in USDC
 
-This server should be running while the other component of this hackathon (tomeck/solana-hackathon-cust-app) simulates a checkout flow at the merchant's PoS.
+This server should be running while the other component of this hackathon, the [Circle-Solana Customer Wallet ](https://github.com/tomeck/solana-hackathon-cust-app/tree/main) simulates a checkout flow at the merchant's PoS.
 
 Due to the rapid settlement time of Solana, the merchant is assured that the transfer transaction has completed and it is safe to provide the customer with the goods or services he just paid for.
