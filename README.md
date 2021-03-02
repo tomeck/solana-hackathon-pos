@@ -2,6 +2,13 @@
 ### Poor man's Point of Sale terminal
 Submitted for the Solana DeFi Hackathon March 1 2021
 
+# Demo videos
+If you want to see the demo of this simulated back-end for the merchant's Point of Sale system as well as the consumer wallet app please visit:
+
+- [Demo of consumer wallet](https://youtu.be/3Fl4cfl4Cyg)
+
+- [Demo of merchant Point-of-Sale back-end](https://youtu.be/-l5u6NxjZfQ)
+
 # Installation
     go get "github.com/gorilla/websocket"
 
